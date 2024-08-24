@@ -1,9 +1,10 @@
 {
   "env": {
     "browser": true,
-    "es6": true
+    "es6": true,
+    "jest": true
   },
-  "extends": "next/core-web-vitals",
+  "extends": "plugin:jest/recommended",
   "parserOptions": {
     "ecmaVersion": 2020
   },
@@ -16,5 +17,6 @@
     "no-unused-vars": "warn",
     "no-var": "error",
     "prefer-const": "error"
-  }
+  },
+  "plugins": ["jest"]
 }

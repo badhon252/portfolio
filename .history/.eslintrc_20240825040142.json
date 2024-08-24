@@ -1,9 +1,13 @@
 {
   "env": {
     "browser": true,
-    "es6": true
+    "es6": true,
+    "jest": true // Enable Jest environment
   },
-  "extends": "next/core-web-vitals",
+  "extends": [
+    "next/core-web-vitals",
+    "plugin:jest/recommended" // Add Jest plugin recommendations
+  ],
   "parserOptions": {
     "ecmaVersion": 2020
   },
