@@ -29,3 +29,20 @@
 .out-line:hover {
   background-color: #000000;
 }
+
+.time-span {
+  color: var(--accent);
+}
+
+.company {
+  cursor: pointer;
+}
+
+.company > .brlbd:hover {
+  background-color: var(--secondary);
+}
+
+/* 
+b {
+  font-weight: 500;
+} */
