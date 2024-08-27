@@ -1,17 +1,18 @@
+import About from '@/components/About/About';
 import Contact from '@/components/Contact/Contact';
 import Experience from '@/components/Experience/Experience';
 import HeroSection from '@/components/Hero/HeroSection';
-import Navbar from '@/components/Nav/Navbar';
 import Work from '@/components/Works/Works';
 
 export default function Home() {
   return (
-    <main className="flex min-h-screen flex-col items-center  p-24">
-      <Navbar />
+    <main className="mx-auto md:w-4/5 xl:w-3/6 w-3/4 sm:w-11/12">
       <HeroSection />
       <Experience />
+      {/*
       <Work />
-      <Contact />
+      <About />
+      <Contact /> */}
     </main>
   );
 }

@@ -1,0 +1,31 @@
+.title {
+  background-color: var(--primary);
+}
+
+.hero-img {
+  margin-top: -3rem;
+}
+
+/* .call-to-action {
+  background: rgb(0, 0, 0);
+  background: linear-gradient(
+    159deg,
+    rgba(0, 0, 0, 0) 0%,
+    rgba(62, 60, 60, 0.19931722689075626) 10%
+  );
+} */
+
+.primary {
+  background: var(--primary);
+  transition: all 0.4s;
+}
+
+.out-line {
+  transition: all 0.4s;
+  color: var(--foreground);
+  background-color: rgba(0, 0, 0, 0.664);
+}
+
+.out-line:hover {
+  background-color: #000000;
+}
