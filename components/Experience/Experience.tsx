@@ -1,3 +1,3 @@
 export default function Experience() {
-  return <div>Experience</div>;
+  return <div className="h-screen ">Experience</div>;
 }
