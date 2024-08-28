@@ -11,8 +11,8 @@ import iprisma from '@/public/Assets/image/prisma.svg';
 export default function Work() {
   const icons = [ireact, inext, itypescript, igit, iprisma];
   return (
-    <section className="min-h-screen" id="work">
-      <div className="work-title my-16">
+    <section className="min-h-screen relative" id="work">
+      <div className="work-title my-16 sticky bg-work top-0">
         <h1 className="text-8xl font-black">Works</h1>
         <h3 className="font-medium">Project | Collaboration | Exploration</h3>
       </div>
@@ -22,6 +22,40 @@ export default function Work() {
         desc="Prisma Store eCommerce Store & Web Content management Application (CMA). Complete integreted Stripe payment system. Prisma Store eCommerce Store & Web Content management Application (CMA). Complete integreted Stripe payment system."
         icon={icons}
       />
+      <Project
+        img={p01}
+        title="Prisma-Store"
+        desc="Prisma Store eCommerce Store & Web Content management Application (CMA). Complete integreted Stripe payment system. Prisma Store eCommerce Store & Web Content management Application (CMA). Complete integreted Stripe payment system."
+        icon={icons}
+      />
+      <Project
+        img={p01}
+        title="Prisma-Store"
+        desc="Prisma Store eCommerce Store & Web Content management Application (CMA). Complete integreted Stripe payment system. Prisma Store eCommerce Store & Web Content management Application (CMA). Complete integreted Stripe payment system."
+        icon={icons}
+      />
+      <Project
+        img={p01}
+        title="Prisma-Store"
+        desc="Prisma Store eCommerce Store & Web Content management Application (CMA). Complete integreted Stripe payment system. Prisma Store eCommerce Store & Web Content management Application (CMA). Complete integreted Stripe payment system."
+        icon={icons}
+      />
+      <Project
+        img={p01}
+        title="Prisma-Store"
+        desc="Prisma Store eCommerce Store & Web Content management Application (CMA). Complete integreted Stripe payment system. Prisma Store eCommerce Store & Web Content management Application (CMA). Complete integreted Stripe payment system."
+        icon={icons}
+      />
+
+      <div className="mx-auto text-center pb-16">
+        <a
+          target="_blank"
+          href="https://github.com/badhon252"
+          className="product-link "
+        >
+          Learn more.
+        </a>
+      </div>
     </section>
   );
 }

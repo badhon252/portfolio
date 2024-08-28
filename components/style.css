@@ -82,3 +82,14 @@ b {
   background-color: var(--secondary);
   color: var(--background);
 }
+
+.bg-work {
+  background-color: var(--foreground);
+}
+
+/* About section */
+
+.about__me-info {
+  font-weight: 600;
+  margin: 1rem 0;
+}

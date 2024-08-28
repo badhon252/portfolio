@@ -19,11 +19,11 @@ interface ProjectProps {
 export default function Project({ img, title, desc, icon }: ProjectProps) {
   return (
     <section className="flex flex-wrap my-8 product">
-      <div className="product-img md:basis-3/5">
+      <div className="product-img md:basis-3/5 ">
         <Image
           src={img}
           alt="Product Image"
-          className="border shadow-md hover:shadow-lg cursor-pointer"
+          className="border shadow-md hover:shadow-lg cursor-pointer "
           layout="responsive" // Adjust layout as needed
           width={700} // Provide default width
           height={475} // Provide default height
