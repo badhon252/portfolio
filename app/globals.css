@@ -4,14 +4,14 @@
 @layer base {
   :root {
     --background: #001409;
-    --foreground: #e5fff1;
+    --foreground: #effff6;
     --card: 0 0% 100%;
     --card-foreground: 222.2 84% 4.9%;
     --popover: 0 0% 100%;
     --popover-foreground: 222.2 84% 4.9%;
     --primary: #01f456;
     --primary-foreground: 210 40% 98%;
-    --secondary: #00427821;
+    --secondary: #00b6ff2b;
     --secondary-foreground: 222.2 47.4% 11.2%;
     --muted: 210 40% 96.1%;
     --muted-foreground: 215.4 16.3% 46.9%;
@@ -64,6 +64,12 @@
   body {
     @apply bg-background text-foreground;
   }
+}
+
+/* styles/globals.css or any global CSS file */
+
+.custom-cursor {
+  cursor: url('../public/Assets/image/my-mouse-pointer.cur'), auto;
 }
 
 body {

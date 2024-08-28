@@ -12,9 +12,15 @@ export default function Navbar() {
         <li className="nav-link text-xl sm:mx-6 mx-2">
           <Link href="#experience">Experience</Link>
         </li>
-        <li className="nav-link text-xl sm:mx-6 mx-2">Work</li>
-        <li className="nav-link text-xl sm:mx-6 mx-2">About</li>
-        <li className="nav-link text-xl sm:mx-6 mx-2">Contact</li>
+        <li className="nav-link text-xl sm:mx-6 mx-2">
+          <Link href="#work">Work</Link>
+        </li>
+        <li className="nav-link text-xl sm:mx-6 mx-2">
+          <Link href="#about">About</Link>
+        </li>
+        <li className="nav-link text-xl sm:mx-6 mx-2">
+          <Link href="#contact">Contact</Link>
+        </li>
         <li className="nav-link text-xl sm:mx-6 mx-2  border border-slate-900 hover:text-white rounded px-2 py-1">
           <a href="#">Resume</a>
         </li>
