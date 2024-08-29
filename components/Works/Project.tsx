@@ -10,7 +10,8 @@ type IconType = {
 };
 
 interface ProjectProps {
-  img: object; // Typically a string representing the image URL, but can be adjusted if it's a different type
+  // eslint-disable-next-line @typescript-eslint/no-explicit-any
+  img: any; // Typically a string representing the image URL, but can be adjusted if it's a different type
   title: string;
   desc: string;
   icon: IconType[]; // Array of IconType objects
