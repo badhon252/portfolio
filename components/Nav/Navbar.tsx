@@ -6,14 +6,14 @@ export default function Navbar() {
   return (
     <header className="flex justify-between items-center py-3">
       <div className="logo font-extrabold text-2xl ">
-        <Image src={logo} alt="KHB" className="w-24"></Image>
+        <Image src={logo} alt="KHB" className="w-24 font-black"></Image>
       </div>
       <ul className="nav flex flex-wrap justify-evenly">
         <li className="nav-link text-xl sm:mx-6 mx-2">
           <Link href="#experience">Experience</Link>
         </li>
         <li className="nav-link text-xl sm:mx-6 mx-2">
-          <Link href="#work">Work</Link>
+          <Link href="/works">Work</Link>
         </li>
         <li className="nav-link text-xl sm:mx-6 mx-2">
           <Link href="#about">About</Link>

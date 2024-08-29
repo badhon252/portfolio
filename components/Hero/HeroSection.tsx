@@ -5,6 +5,7 @@ import '../style.css';
 import Image from 'next/image';
 import hero from '@/public/Assets/image/badhon252.png';
 import Button from '../Button/Button';
+import Link from 'next/link';
 
 export default function HeroSection() {
   return (
@@ -36,7 +37,11 @@ export default function HeroSection() {
         </div>
         <div className=" w-full  call-to-action md:absolute md:bottom-20">
           <Button text="You need a Developer" value="out-line" />
-          <Button value="primary" text="View projects" />
+          <div className="inline-block primary m-4 px-4 py-2 hover:px-8 hover:me-3 border rounded border-green-900 text-lg font-semibold shadow-2xl hover:shadow-lime-500/20">
+            <Link href="#work" className="primary">
+              View Works
+            </Link>
+          </div>
         </div>
       </div>
     </section>
